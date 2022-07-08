@@ -14,7 +14,10 @@ let package = Package(
             targets: ["SBTUITestTunnelClient"])
     ],
     dependencies: [
-        .package(url: "https://github.com/Subito-it/GCDWebServer.git", from: "4.0.0"),
+        .package(
+          url: "https://github.com/SlaunchaMan/GCDWebServer.git",
+          .revision("935e2736044e71e5341663c3cc9a335ba6867a2b")
+        ),
     ],
     targets: [
         .target(
